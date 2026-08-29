@@ -1,0 +1,18 @@
+# Real configuration containing credentials
+config.php
+.env
+
+# AWS private keys
+*.pem
+*.key
+
+# Database backups containing real data
+*.sql
+!database/schema.sql
+
+# Compressed backups
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
